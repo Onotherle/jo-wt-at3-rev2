@@ -968,6 +968,11 @@ video {
   border-color: rgb(72 159 181 / var(--tw-border-opacity, 1));
 }
 
+.border-licorice-default {
+  --tw-border-opacity: 1;
+  border-color: rgb(50 32 36 / var(--tw-border-opacity, 1));
+}
+
 .border-x-chocolatecosmos-default {
   --tw-border-opacity: 1;
   border-left-color: rgb(92 10 29 / var(--tw-border-opacity, 1));
