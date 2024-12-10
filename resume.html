@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <script src="https://kit.fontawesome.com/5856c2323c.js" crossorigin="anonymous"></script>
+    <title>Resumé Sample | JO</title>
+</head>
+<body>
+    <header class="bg-timberwolf border-b-2 border-chocolatecosmos-default py-1 lg:py-5 lg:static sticky top-0">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <div class="flex-1 flex items-center gap-5 lg:gap-12">
+                    <img src="./assets/img/jo-custom-logo-sym.png" alt="Logo" class="w-16 lg:w-20 h-auto p-1">
+                    <h1 class="font-bold text-chocolatecosmos-default text-xl lg:text-2xl underline underline-offset-4 decoration-moonstone-default">jason<span class="text-black mx-0.5">.</span><span class="text-licorice-default">on</span></h1>
+                </div>
+        
+                <div class="md:flex md:items-center md:gap-12">
+                    <nav class="hidden md:block">
+                        <ul class="flex items-center gap-6 text-sm">
+                        <li>
+                            <a class="text-licorice-default transition text-lg hover:text-chocolatecosmos-default" href="./index.html">home</a>
+                        </li>
+
+                            <ul class="flex flex-row gap-4 w-full">
+                                <li class="group relative dropdown">
+                                    <a class="text-licorice-default transition text-lg hover:text-chocolatecosmos-default"href="./projects.html">
+                                        projects
+                                    </a>
+                                    <div class="group-hover:block pt-5 border-b-4 border-moonstone-default absolute -left-5 hidden h-auto transition duration-1000 ease-in-out">
+                                        <ul class="top-0 w-24 bg-timberwolf px-2 py-4 gap-2 text-center">
+                                            <li>
+                                                <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                        href="">
+                                                    Phase 1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                        href="">
+                                                    Phase 2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                        href="">
+                                                    Phase 3
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                        href="">
+                                                    Phase 4
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 -mb-2"
+                                                        href="">
+                                                    Phase 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+            
+                        <li>
+                            <a class="text-licorice-default transition text-lg hover:text-chocolatecosmos-default" href="./about.html">about</a>
+                        </li>
+            
+                        <li>
+                            <a class="text-licorice-default transition text-lg hover:text-chocolatecosmos-default" href="./resume.html">resumé</a>
+                        </li>
+            
+                        <li>
+                            <a class="text-licorice-default transition text-lg hover:text-chocolatecosmos-default" href="./contact.html">contact</a>
+                        </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="block md:hidden">
+                    <ul class="flex flex-row gap-4 w-full">
+                        <li class="group relative dropdown">
+                            <button id="buttonMobileDropdown" class="rounded bg-white p-2 mt-1 mr-2 w-10 h-auto hover:bg-gray-50" data-dropdown-toggle="groupMobileDropdown">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>   
+                            <div class="mt-4 absolute -right-4 hidden h-auto transition duration-500 ease-in-out" id="groupMobileDropdown">
+                                <ul class="top-0 w-24 bg-timberwolf px-2 py-4 gap-2 text-center">
+                                    <li>
+                                        <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                href="./index.html">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                href="./projects.html">
+                                            Projects
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                href="./about.html">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2 mb-2"
+                                                href="./resume.html">
+                                            Resumé
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="block text-black transition duration-500 ease-in-out hover:text-white rounded-xl hover:bg-licorice-default px-2"
+                                                href="./contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class=" pb-10">
+
+        <section class="bg-licorice-default text-white border-moonstone-default border-y-2">
+            <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h1 class="text-3xl font-extrabold text-moonstone-default lg:text-5xl">
+                        resumé.
+                    </h1>
+            
+                    <p class="mx-auto mt-10 max-w-xl text-lg lg:text-xl">
+                        My skills & academics.
+                    </p>
+                </div>
+            </div>
+          </section>
+
+          <article class="border-t-2 border-chocolatecosmos-default pt-10">
+        <!-- <section class="bg-white lg:w-3/5 lg:px-10 mx-4 lg:mx-auto text-black border-moonstone-default border-2 rounded-xl p-2 lg:p-9"> -->
+            <div class="mx-auto max-w-screen-xl px-4 py-6 lg:flex lg:items-center">
+
+                <div class="mx-auto w-full text-left">
+                    <div class="grid lg:grid-cols-7 gap-10">
+                        <div class="bg-white lg:col-span-3 p-10 lg:pr-14 lg:ml-10 lg:border-r-2 border-b-2 lg:border-b-0 border-moonstone-default lg:text-right">
+                            <h3 class="mb-2 text-2xl lg:font-semibold ">Jason On</h3>
+                            <p class="mb-6 mt-5">Perth, WA</p>
+                            <p class=" mb-3 pt-5 lg:text-sm">J250764@tafe.wa.edu.au</p>
+                            <p class="mb-6 lg:text-sm">0412123456</p>
+
+
+                        </div>
+
+                        <div class="lg:col-span-4 p-5 rounded-xl bg-white">
+                            <h4 class="mb-2 text-xl font-semibold">Summary</h4>
+                            <p class="mb-2 lg:text-sm">Creatively skilled individual with an educational background in the arts; Graphic Design, Visual Arts, and Programming.
+                                Familiar with the use of a large range of design software and hardware, and eager to utilise my creativity and passion for art and technology.
+                                Pursuing creative opportunities to apply my skills first hand.
+                            </p>
+
+                            <h4 class="mb-2 text-xl font-semibold mt-6">Skills</h4>
+                            <ul>
+                                <li>Adobe Photoshop | InDesign | Illustrator</li>
+                                <li>Visual Studio Code | 2022 Community</li>
+                                <li>Microsoft Word | PowerPoint | Excel</li>
+                                <li>C# | SQL | Python | HTML | JavaScript</li>
+                            </ul>
+
+                            <h4 class="mb-2 text-xl font-semibold mt-6">Education</h4>
+                            <ul>
+                                <li>North Metropolitan TAFE - General I.T. (2023)</li>
+                                <li>North Metropolitan TAFE - Visual Arts (2016)</li>
+                                <li>Central TAFE (NMTAFE) - Graphic Design (2014)</li>
+                            </ul>
+
+                            <h4 class="mb-2 text-xl font-semibold mt-6">Awards</h4>
+                            <ul>
+                                <li>"In Pursuit of Excellence" - Morley PS (2006)</li>
+                            </ul>
+
+                            <div class="list-none lg:list-disc">
+                            <h4 class="mb-2 text-xl font-semibold mt-6">Projects</h4>
+                            <p class="mb-2">Portfolio Site</p>
+                            <li class="lg:text-sm">Design a personalised website using HTML and CSS.</li>
+                            <li class="lg:text-sm">Create elements for site including images and logos.</li>
+                            </div>
+
+                        </div>
+                      </div>
+
+                </div>
+                
+            </div>
+        <!-- </section> -->
+          
+    </main>
+    <footer class="bg-timberwolf border-t-2 border-chocolatecosmos-default">
+        <div class="container px-6 pt-5 mx-auto">
+            <div class="flex flex-col items-center text-center">
+                    <img class="w-14 lg:w-16 h-auto" src="./assets/img/jo-custom-logo-sym.png" alt="Logo">
+    
+                <div class="flex flex-wrap justify-center mt-3 -mx-4">
+                    <a href="./index.html" class="mx-3 text-licorice-default transition hover:text-chocolatecosmos-default">home</a>
+                    
+                    <a href="./projects.html" class="mx-3 text-licorice-default transition hover:text-chocolatecosmos-default">projects</a>
+                    
+                    <a href="./about.html" class="mx-3 text-licorice-default transition hover:text-chocolatecosmos-default">about</a>
+    
+                    <a href="./resume.html" class="mx-3 text-licorice-default transition hover:text-chocolatecosmos-default">resumé</a>
+    
+                    <a href="./contact.html" class="mx-3 text-licorice-default transition hover:text-chocolatecosmos-default">contact</a>
+                </div>
+                <p class="text-xs text-licorice-default my-7">© Copyright 2024 Jason On. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/mobile-dropdown.js"></script>
+</body>
+</html>
